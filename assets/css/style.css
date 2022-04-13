@@ -28,17 +28,16 @@ body::before {
   body::before {
     background-attachment: fixed;
     background:url("../img/bg1.jpg");
-    background-size: cover;
-  }  
+    background-size: cover;}  
 }
 
 a {
   text-decoration: none;
 }
-
+/* 
 a:hover {
   text-decoration: none;
-}
+}  */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
@@ -68,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #header h1 a, #header h1 a:hover {
-  color: #fff;
+  color: rgb(255, 255, 255);
   line-height: 1;
   display: inline-block;
 }
@@ -102,6 +101,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+}
+#header .social-links  a:hover {
+  background: #18d26e;
 }
 #header .social-links a:hover {
   background: #18d26e;
