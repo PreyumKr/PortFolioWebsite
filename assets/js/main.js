@@ -1,3 +1,20 @@
+function calculateAge(birthDate) {
+  const today = new Date();
+  const birth = new Date(birthDate);
+  let age = today.getFullYear() - birth.getFullYear();
+  const monthDifference = today.getMonth() - birth.getMonth();
+  if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birth.getDate())) {
+    age--;
+  }
+  return age;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const ageElement = document.querySelector("#age");
+  const birthDate = "2001-11-12";
+  ageElement.textContent = calculateAge(birthDate);
+});
+
 
 (function() {
   "use strict";
