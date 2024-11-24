@@ -717,6 +717,8 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -882,6 +884,20 @@ section .container {
   font-size: 22px;
   font-weight: 400;
   margin-bottom: 20px;
+}
+.portfolio-details .portfolio-info a {
+  color: #62ee79;
+  font-size: 15px;
+  padding: 0;
+  transition: 0.3s;
+  margin: 0;
+}
+.portfolio-details .portfolio-info a:hover {
+  color: #18d26e;
+  font-size: 15px;
+  transition: 0.3s;
+  padding: 0;
+  margin: 0;
 }
 .portfolio-details .portfolio-info ul {
   list-style: none;
