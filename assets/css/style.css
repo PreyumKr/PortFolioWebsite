@@ -107,6 +107,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #1DA1F2;
   transform: scale(1.2);
 }
+/* Scholar */
+#header .social-links .google-scholar:hover {
+  background: #5d98bd;
+  transform: scale(1.2);
+}
 /* Facebook */
 #header .social-links .facebook:hover {
   background: #4267B2;
@@ -145,6 +150,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Linkedin */
 #header .social-links .linkedin:hover {
   background: #0077b5;
+  transform: scale(1.2);
+}
+/* Skype */
+#header .social-links .google-plus:hover {
+  background: #6dccff;
   transform: scale(1.2);
 }
 @media (max-width: 992px) {
@@ -980,6 +990,11 @@ section .container {
   color: #1DA1F2;
   transform: scale(1.1);
 }
+/* Scholar */
+.contact .info-box .social-links .google-scholar:hover {
+  color: #5d98bd;
+  transform: scale(1.1);
+}
 /* Facebook */
 .contact .info-box .social-links .facebook:hover {
   color: #4267B2;
@@ -997,7 +1012,7 @@ section .container {
 }
 /* Skype */
 .contact .info-box .social-links .google-plus:hover {
-  color: #00aff0;
+  color: #6dccff;
   transform: scale(1.1);
 }
 
